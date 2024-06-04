@@ -2,12 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBvVT2f-0tl9anYpo39eYvmVdg9btvm238",
-    authDomain: "login-signup-c3b5d.firebaseapp.com",
-    projectId: "login-signup-c3b5d",
-    storageBucket: "login-signup-c3b5d.appspot.com",
-    messagingSenderId: "436237924320",
-    appId: "1:436237924320:web:0c195000ff8f40389d1d85"
+     apiKey: "AIzaSyAlhnsbWQs_YnbvGQBy_8MtfvWGjMzR_8U",
+    authDomain: "navya-project-67af1.firebaseapp.com",
+    projectId: "navya-project-67af1",
+    storageBucket: "navya-project-67af1.appspot.com",
+    messagingSenderId: "664477830595",
+    appId: "1:664477830595:web:ac5e01a551ca502a400176",
+    measurementId: "G-4K7GHLV9DT"
 };
 
 const app = initializeApp(firebaseConfig);
